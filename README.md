@@ -1,179 +1,242 @@
-🏨 DEWORA Hotel Website
+# DEWORA Hotel Website
 
-A modern, luxurious hotel website built with React.js, Tailwind CSS, and Vite, showcasing premium accommodations, world-class facilities, and a seamless booking experience for Hotel DEWORA.
+A modern, luxurious hotel website built with React.js, showcasing premium accommodations, world-class facilities, and seamless booking experience for DEWORA Hotel.
 
-🌟 About DEWORA
+## 🏨 About DEWORA
 
-DEWORA Hotel offers the pinnacle of hospitality, blending elegant accommodations with exceptional service. This website serves as a digital gateway for guests to explore rooms, view amenities, and make instant bookings via WhatsApp.
+DEWORA Hotel represents the pinnacle of hospitality excellence, offering guests an unforgettable experience with luxurious accommodations, exceptional service, and world-class amenities. Our website provides an elegant digital gateway for guests to explore our offerings and make reservations effortlessly.
 
-✨ Features
-🏠 Homepage
 
-Full-screen hero section with background image and branding
+## ✨ Features
 
-Call-to-action buttons and smooth navigation
+### 🏠 **Homepage**
+- Stunning hero banner with hotel branding and captivating background imagery
+- Compelling tagline and call-to-action elements
+- Smooth navigation and modern design aesthetics
 
-Responsive design for all devices
+### ℹ️ **About Us**
+- Comprehensive hotel story and brand values
+- Professional presentation of hotel's unique selling points
+- Engaging content that builds trust and credibility
 
-ℹ️ About Us
+### 🛏️ **Rooms & Suites**
+- Showcase of distinctive room categories
+- High-resolution images and detailed descriptions
+- Transparent pricing information
+- Interactive room selection experience
 
-Story of DEWORA and core brand values
+### 🏊 **Facilities & Services**
+- Complete overview of premium amenities:
+  - Swimming Pool & Aquatic Center
+  - Full-Service Spa & Wellness Center
+  - State-of-the-Art Fitness Center
+  - Fine Dining Restaurant & Bar
+  - High-Speed Wi-Fi Throughout
+  - Complimentary Parking
+  - 24/7 Concierge Service
 
-Focused on trust, hospitality, and experience
+### 📸 **Gallery**
+- Professional photo collection 
+- Interactive grid layout or elegant slider presentation
+- Showcases hotel's architecture, rooms, and amenities
 
-🛏️ Rooms & Suites
+### 📞 **Contact & Booking**
+- Complete contact information (phone, email, address)
+- Interactive map integration for easy location access
+- **Innovative WhatsApp Booking System**:
+  - User-friendly booking form
+  - Captures guest details (Name, Check-in/Check-out dates, Room type)
+  - Generates pre-filled WhatsApp message for instant communication
+  - Direct connection to hotel reservations team
 
-Display of room categories with photos and pricing
+## 🛠️ Technology Stack
 
-Interactive UI for room exploration
+- **Frontend Framework**: React.js 19.1.1
+- **Build Tool**: Vite 7.1.6
+- **Styling**: Modern CSS3 with responsive design
+- **Code Quality**: ESLint for consistent code standards
+- **Development**: Hot Module Replacement (HMR) for efficient development
 
-🏊 Facilities & Services
+## 📁 Project Structure
 
-List of world-class services:
-
-Spa & Wellness Center
-
-Swimming Pool
-
-Fitness Center
-
-Fine Dining Restaurant
-
-Free Wi-Fi, Parking, and 24/7 Concierge
-
-📸 Gallery
-
-Elegant image gallery or slider to showcase hotel visuals
-
-📞 Contact & Booking
-
-Contact details and embedded map
-
-WhatsApp Booking System:
-
-Form with Name, Dates, Room Type
-
-Generates a pre-filled WhatsApp message
-
-Seamless guest-to-hotel booking conversation
-
-🛠️ Tech Stack
-Layer	Tech
-Frontend	React 19.1.1
-Build	Vite 7.1.6
-Styling	Tailwind CSS
-Quality	ESLint
-Features	WhatsApp Booking, HMR
-📁 Project Structure
-Hotel_dewora/
-├── public/                    # Static public assets
+```
+DEWORA-Website/
+├── public/                    # Public assets
 ├── src/
-│   ├── components/           # React components
-│   ├── assets/               # Images, icons, etc.
-│   ├── styles/               # Global & component styles
-│   ├── utils/                # Utility functions
-│   ├── App.jsx               # Main App component
-│   ├── main.jsx              # Entry point
-│   ├── index.css             # Tailwind directives
-│   └── App.css               # App-specific styles
-├── .gitignore
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── index.html
-└── README.md
+│   ├── assets/               # Static assets
+│   │   ├── bg.jpg           # Hero section background image
+│   │   └── room1.jpg        # Room showcase pictures
+│   ├── App.jsx              # Main App component
+│   ├── App.css              # App styles
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Global styles
+├── .gitignore               # Git ignore rules
+├── package.json             # Dependencies and scripts
+├── package-lock.json        # Dependency lock file
+├── vite.config.js           # Vite configuration
+├── eslint.config.js         # ESLint configuration
+├── index.html               # HTML template
+└── README.md                # Project documentation
+```
 
-🚀 Getting Started
-Prerequisites
 
-Node.js (v16+)
+### Development Structure (Recommended)
+```
+src/
+├── components/              # React components
+│   ├── Header/             # Navigation component
+│   ├── Hero/               # Hero banner component  
+│   ├── About/              # About section component
+│   ├── Rooms/              # Rooms showcase component
+│   ├── Facilities/         # Facilities section component
+│   ├── Gallery/            # Image gallery component
+│   ├── Contact/            # Contact & booking component
+│   └── Footer/             # Footer component
+├── assets/
+│   ├── images/             # Organized image folders
+│   │   ├── hero/          # Hero section images
+│   │   ├── rooms/         # Room images
+│   │   ├── facilities/    # Facility images  
+│   │   └── gallery/       # Gallery images
+│   └── icons/             # Icon assets
+├── styles/                 # Global styles
+│   ├── globals.css        # Global CSS variables
+│   └── components.css     # Component styles
+├── utils/                 # Utility functions
+│   └── whatsapp.js       # WhatsApp integration
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
 
-npm or yarn
+## 🚀 Getting Started
 
-Modern browser
+### Prerequisites
 
-Installation
-# Clone the repo
-git clone https://github.com/Dewmini-Kaveesha/Hotel_Dewora.git
-cd Hotel_Dewora
+- **Node.js** (version 16.0 or higher)
+- **npm** or **yarn** package manager
+- Modern web browser
 
-# Install dependencies
-npm install
+### Installation & Setup
 
-# Start development server
-npm run dev
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Dewmini-Kaveesha/Hotel_Dewora.git
+   cd Hotel-Dewora
+   ```
 
-# Open in browser
-http://localhost:5173
+   Demo video link: https://drive.google.com/drive/folders/1wtyn5W92cb28yP76rKjtIOFys7bPxfUT?usp=sharing
 
-🌍 Environment Variables
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Create a .env file in the root directory:
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
+4. **Open in browser**
+   Navigate to `http://localhost:5173` to view the website
+
+### Available Scripts
+
+```bash
+npm run dev      # Start development server with hot reload
+npm run build    # Build for production
+npm run preview  # Preview production build locally
+npm run lint     # Run ESLint for code quality check
+```
+
+## 📱 Responsive Design
+
+The website is meticulously crafted to provide optimal user experience across all devices:
+
+- **🖥️ Desktop**: Full-featured experience with large imagery and detailed layouts
+- **📱 Tablet**: Adapted layouts maintaining functionality and visual appeal
+- **📞 Mobile**: Touch-optimized interface with streamlined navigation
+
+## 🔧 Configuration
+
+### Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
 VITE_HOTEL_PHONE=+94123456789
 VITE_HOTEL_EMAIL=reservations@dewora.com
 VITE_HOTEL_ADDRESS=Colombo, Sri Lanka
 VITE_WHATSAPP_NUMBER=94123456789
+```
 
-💬 WhatsApp Integration
+### WhatsApp Integration
 
-utils/whatsapp.js:
+The booking system utilizes WhatsApp's URL scheme for seamless communication:
 
-const generateWhatsAppURL = (name, checkin, checkout, roomType, phoneNumber) => {
+```javascript
+const generateWhatsAppURL = (name, checkin, checkout, roomType) => {
   const message = `Hello DEWORA Hotel! I would like to make a reservation:
-
+  
 Name: ${name}
 Check-in: ${checkin}
 Check-out: ${checkout}
 Room Type: ${roomType}
 
-Please confirm availability.`;
-
+Please confirm availability and provide booking details.`;
+  
   return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 };
+```
 
-📱 Responsive Design
+## 🎯 Key Highlights
 
-✅ Desktop: Full UI
+### ✅ **Technical Excellence**
+- ✓ Clean, well-documented React.js implementation
+- ✓ Fully responsive design for all device types
+- ✓ Modern component-based architecture
+- ✓ Optimized performance with Vite build system
+- ✓ Professional code organization and structure
 
-✅ Tablet: Adaptive layout
+### 🌟 **User Experience**
+- ✓ Intuitive navigation and user-friendly interface
+- ✓ Fast loading times and smooth interactions
+- ✓ Accessible design following best practices
+- ✓ Interactive booking system via WhatsApp
+- ✓ Professional visual design and branding
 
-✅ Mobile: Touch-optimized, smooth UX
+### 📊 **Development Standards**
+- ✓ ESLint configuration for code quality
+- ✓ Component-based architecture for maintainability
+- ✓ Semantic HTML and proper accessibility
+- ✓ Cross-browser compatibility
+- ✓ Performance-optimized assets and code
 
-📜 Scripts
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run preview  # Preview production build
-npm run lint     # Lint JS/JSX files
+## 🤝 Contributing
 
-👨‍💻 Developer
+We welcome contributions to enhance the DEWORA Hotel website:
 
-Dewmini Kaveesha
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/enhancement`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/enhancement`)
+5. Open a Pull Request
 
-🌐 Full Stack Web Developer
 
-🛠️ React | Tailwind | Vite | Node
+## 👨‍💻 Developer
 
-🔗 GitHub
+**Dewmini Kaveesha**
+- Full Stack Developer specializing in React.js and modern web technologies
+- Passionate about creating exceptional user experiences
+- Expert in responsive design and interactive web applications
 
-💼 LinkedIn
+## 📞 Contact
 
-📧 dewminikaveeshaa@gmail.com
+For inquiries about this project:
+- **Email**: dewminikaveeshaa@gmail.com
+- **GitHub**: [github.com/Dewmini-Kaveesha](https://github.com/Dewmini-Kaveesha)
+- **LinkedIn**: [Connect with me](https://linkedin.com/in/dewmini-kaveesha)
 
-🤝 Contributing
+---
 
-Contributions are welcome!
-
-Fork the repo
-
-Create your feature branch (git checkout -b feature/my-feature)
-
-Commit your changes
-
-Push and open a Pull Request
-
-🏁 Final Notes
-
-Built with ❤️ for DEWORA Hotel
-Powered by React, Tailwind, and Vite
-© 2025 DEWORA Hotel. All rights reserved.
+**Built with ❤️ for DEWORA Hotel** | **Powered by React.js & Vite** | **© 2025 DEWORA Hotel**
