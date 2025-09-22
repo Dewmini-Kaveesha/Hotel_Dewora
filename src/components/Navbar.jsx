@@ -8,11 +8,11 @@ const Navbar = () => {
   };
 
   const handleBookNow = () => {
-    const roomsSection = document.getElementById('rooms');
-    if (roomsSection) {
-      roomsSection.scrollIntoView({ 
+    const bookingForm = document.getElementById('booking-form');
+    if (bookingForm) {
+      bookingForm.scrollIntoView({ 
         behavior: 'smooth',
-        block: 'start'
+        block: 'center'
       });
     }
     // Close mobile menu if open

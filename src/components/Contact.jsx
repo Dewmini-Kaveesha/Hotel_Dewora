@@ -183,7 +183,7 @@ Thank you!`;
           {/* Right Side - Enhanced Booking Form */}
           <div className="space-y-8">
             {/* Enhanced WhatsApp Booking */}
-            <div className="p-8 transition-all duration-500 border shadow-2xl bg-gradient-to-br from-green-500/5 to-emerald-500/5 backdrop-blur-xl rounded-3xl border-green-400/20 hover:border-green-400/40 group">
+            <div id="booking-form" className="p-8 transition-all duration-500 border shadow-2xl bg-gradient-to-br from-green-500/5 to-emerald-500/5 backdrop-blur-xl rounded-3xl border-green-400/20 hover:border-green-400/40 group">
               <div className="mb-8 text-center">
                 <div className="relative w-20 h-20 mx-auto mb-6">
                   <div className="absolute inset-0 shadow-2xl bg-gradient-to-r from-green-500 to-emerald-600 rounded-3xl animate-pulse"></div>
