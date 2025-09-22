@@ -63,9 +63,32 @@ DEWORA Hotel represents the pinnacle of hospitality excellence, offering guests 
 DEWORA-Website/
 ├── public/                    # Public assets
 ├── src/
-│   ├── assets/               # Static assets
-│   │   ├── bg.jpg           # Hero section background image
-│   │   └── room1.jpg        # Room showcase pictures
+│   ├── assets/               # Static assets (Images)
+│   │   ├── 2 person.jpg     # 2-person room image
+│   │   ├── 2-person.jpg     # Deluxe 2-person suite image
+│   │   ├── 4-person.jpg     # 4-person room image
+│   │   ├── family.jpg       # Family suite image
+│   │   ├── bar.jpg          # Hotel bar image
+│   │   ├── beverage.jpg     # Beverage service image
+│   │   ├── cafeteria.jpg    # Cafeteria image
+│   │   ├── gym.jpg          # Fitness center image
+│   │   ├── lobby.jpg        # Hotel lobby image
+│   │   ├── night_view.jpg   # Hotel night view
+│   │   ├── parking.jpg      # Parking facility image
+│   │   ├── pool.jpg         # Swimming pool image
+│   │   ├── resort-umbrellas.jpg # Resort outdoor area
+│   │   ├── resort.jpg       # Resort overview image
+│   │   ├── restaurant.jpg   # Restaurant image
+│   │   ├── room1.jpg        # Room showcase image
+│   │   ├── room_entrance.jpg # Room entrance image
+│   │   └── spa.jpg          # Spa facility image
+│   ├── components/          # React components
+│   │   ├── About.jsx        # About section component
+│   │   ├── Contact.jsx      # Contact & booking component
+│   │   ├── Gallery.jsx      # Image gallery component
+│   │   ├── Navbar.jsx       # Navigation component
+│   │   ├── Rooms.jsx        # Rooms showcase component
+│   │   └── Services.jsx     # Services section component
 │   ├── App.jsx              # Main App component
 │   ├── App.css              # App styles
 │   ├── main.jsx             # React entry point
